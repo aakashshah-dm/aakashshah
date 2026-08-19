@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Case Study: [Project Title] | Aakash Shah</title>
+  <meta name="description" content="In-depth digital marketing case study covering strategy, execution, tools, and measurable ROI.">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .case-study-page {
+      padding-top: calc(var(--header-height) + 3rem);
+      padding-bottom: 6rem;
+    }
+    .cs-hero-banner {
+      background-color: var(--bg-surface);
+      border: 1px solid var(--border-medium);
+      border-radius: var(--border-radius-xl);
+      padding: 3rem 2.5rem;
+      margin-bottom: 3.5rem;
+    }
+    .cs-back-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.875rem;
+      font-weight: 600;
+      color: var(--accent-primary);
+      margin-bottom: 1.5rem;
+    }
+    .cs-back-link:hover {
+      gap: 0.75rem;
+    }
+    .cs-meta-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2rem;
+      padding-top: 2rem;
+      border-top: 1px solid var(--border-subtle);
+    }
+    .cs-meta-item strong {
+      display: block;
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--text-muted);
+      margin-bottom: 0.25rem;
+    }
+    .cs-meta-item span {
+      font-size: 0.9375rem;
+      color: var(--text-primary);
+      font-weight: 600;
+    }
+    .cs-article-body {
+      max-width: 860px;
+      margin: 0 auto;
+    }
+    .cs-block {
+      margin-bottom: 3.5rem;
+    }
+    .cs-block-title {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+    .cs-block-title::before {
+      content: "";
+      width: 4px;
+      height: 22px;
+      background: var(--accent-gradient);
+      border-radius: 2px;
+    }
+    .cs-comparison-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1.5rem 0;
+      background-color: var(--bg-surface);
+      border-radius: var(--border-radius-md);
+      overflow: hidden;
+      border: 1px solid var(--border-subtle);
+    }
+    .cs-comparison-table th, .cs-comparison-table td {
+      padding: 1rem 1.25rem;
+      text-align: left;
+      border-bottom: 1px solid var(--border-subtle);
+      font-size: 0.9375rem;
+    }
+    .cs-comparison-table th {
+      background-color: var(--bg-surface-elevated);
+      font-family: var(--font-heading);
+      font-weight: 700;
+    }
+    .cs-comparison-table tr:last-child td {
+      border-bottom: none;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Site Header -->
+  <header class="site-header">
+    <div class="header-container">
+      <a href="index.html" class="brand-logo">
+        <div class="brand-badge">AS</div>
+        <div class="brand-text">
+          <span class="brand-name">Aakash Shah</span>
+          <span class="brand-role">Digital Marketing Specialist</span>
+        </div>
+      </a>
+      <div class="header-actions">
+        <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle Theme">
+          <svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"></path></svg>
+          <svg class="moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path></svg>
+        </button>
+        <a href="index.html#contact" class="btn btn-primary btn-sm">Contact Me</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="case-study-page">
+    <div class="container">
+      
+      <!-- Top Navigation & Hero Banner -->
+      <a href="index.html#projects" class="cs-back-link">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+        <span>Back to All Projects</span>
+      </a>
+
+      <div class="cs-hero-banner">
+        <span class="section-badge">Case Study</span>
+        <h1 class="cs-title" style="font-size: 2.75rem; margin-top: 0.5rem;">[Project Name / Campaign Title]</h1>
+        <p class="section-subtitle" style="margin-top: 0.75rem; max-width: 800px;">
+          [A concise 1-2 sentence subtitle summarizing the business challenge, the digital marketing solution implemented, and the final outcome.]
+        </p>
+
+        <div class="cs-meta-grid">
+          <div class="cs-meta-item">
+            <strong>Client / Company</strong>
+            <span>[Company Name]</span>
+          </div>
+          <div class="cs-meta-item">
+            <strong>My Role</strong>
+            <span>[e.g. Lead Digital Strategist &amp; Media Buyer]</span>
+          </div>
+          <div class="cs-meta-item">
+            <strong>Timeline</strong>
+            <span>[e.g. 3 Months • Q1 2026]</span>
+          </div>
+          <div class="cs-meta-item">
+            <strong>Core Domain</strong>
+            <span>[e.g. Paid Advertising / SEO / Content]</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 10-Part Case Study Body -->
+      <article class="cs-article-body">
+
+        <!-- 1. Project Overview -->
+        <section class="cs-block">
+          <h2 class="cs-block-title">1. Project Overview</h2>
+          <p>
+            [Provide background context on the organization, the market landscape, target audience demographics, and the core challenge that needed to be solved.]
+          </p>
+        </section>
+
+        <!-- 2. Objective -->
+        <section class="cs-block">
+          <h2 class="cs-block-title">2. Core Objectives &amp; KPIs</h2>
+          <p>
+            [Detail the primary and secondary goals for the campaign. Examples: CAC reduction, organic keyword footprint expansion, mobile app installs, or engagement growth.]
+          </p>
+          <ul class="exp-list" style="margin-top: 1rem;">
+            <li>Primary KPI: [e.g. Achieve sub-$1.50 Cost Per Result across top diaspora metros]</li>
+            <li>Secondary KPI: [e.g. Build brand trust through 100% compliant licensing messaging]</li>
+            <li>Tertiary KPI: [e.g. Drive 150+ verified mobile app downloads in Month 1]</li>
+          </ul>
+        </section>
+
+        <!-- 3. Strategy -->
+        <section class="cs-block">
+          <h2 class="cs-block-title">3. Strategic Approach</h2>
+          <p>
+            [Explain the foundational strategy, positioning rationale, audience segmentation, and channel allocation. Why was this approach selected over alternatives?]
+          </p>
+        </section>
+
+        <!-- 4. My Role -->
+        <section class="cs-block">
+          <h2 class="cs-block-title">4. My Role &amp; Responsibilities</h2>
+          <p>
+            [Clearly outline your individual ownership and contributions versus team or agency partners. Emphasize both high-level strategy and hands-on execution.]
+          </p>
+        </section>
+
+        <!-- 5. Execution -->
+        <section class="cs-block">
+          <h2 class="cs-block-title">5. Step-by-Step Tactical Execution</h2>
+          <p>
+            [Walk through the phases of execution: audience persona research, campaign setup, ad creative production, copywriting, landing page optimization, A/B testing, and analytics tracking.]
+          </p>
+        </section>
+
+        <!-- 6. Tools Used -->
+        <section class="cs-block">
+          <h2 class="cs-block-title">6. Tools &amp; Technologies Applied</h2>
+          <div class="tags-cloud" style="margin-top: 0.75rem;">
+            <span class="tag">⚙️ Meta Ads Manager</span>
+            <span class="tag">⚙️ Google Analytics (GA4)</span>
+            <span class="tag">⚙️ Adobe Photoshop</span>
+            <span class="tag">⚙️ DaVinci Resolve</span>
+            <span class="tag">⚙️ Canva Pro</span>
+            <span class="tag">⚙️ Microsoft Excel</span>
+          </div>
+        </section>
+
+        <!-- 7. Creative Assets -->
+        <section class="cs-block">
+          <h2 class="cs-block-title">7. Creative Assets &amp; Deliverables</h2>
+          <p>
+            [Showcase images, video embeds, carousels, or ad creatives produced for the campaign.]
+          </p>
+          <div class="capabilities-grid" style="margin-top: 1.5rem;">
+            <div class="capability-card">
+              <img src="assets/images/project-app-download.png" alt="Creative Sample" style="width:100%; border-radius: var(--border-radius-sm); margin-bottom: 0.5rem;">
+              <div style="font-size: 0.8125rem; font-weight: 600;">Display Ad Creative #1</div>
+            </div>
+            <div class="capability-card">
+              <img src="assets/images/project-isend-carousel.png" alt="Creative Sample" style="width:100%; border-radius: var(--border-radius-sm); margin-bottom: 0.5rem;">
+              <div style="font-size: 0.8125rem; font-weight: 600;">LinkedIn Brand Carousel</div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 8. Before / After Results -->
+        <section class="cs-block">
+          <h2 class="cs-block-title">8. Before vs. After Transformation</h2>
+          <table class="cs-comparison-table">
+            <thead>
+              <tr>
+                <th>Area / Dimension</th>
+                <th>Before Campaign</th>
+                <th>After Implementation</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Organic Search Visibility</strong></td>
+                <td>Low keyword coverage, fragmented metadata</td>
+                <td>Top 5 ranking for commercial intent queries</td>
+              </tr>
+              <tr>
+                <td><strong>Paid Acquisition CPA</strong></td>
+                <td>High friction, unoptimized ad spend</td>
+                <td>Disciplined sub-$1.40 cost-per-result reach</td>
+              </tr>
+              <tr>
+                <td><strong>Brand Voice &amp; Creatives</strong></td>
+                <td>Inconsistent graphics, irregular posting</td>
+                <td>Unified brand system with 100% style consistency</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <!-- 9. Performance Metrics -->
+        <section class="cs-block">
+          <h2 class="cs-block-title">9. Measurable Performance Metrics</h2>
+          <div class="cs-metrics-grid">
+            <div class="cs-metric-box">
+              <div class="cs-metric-num">21,470+</div>
+              <div class="cs-metric-lbl">Target Audience Reach</div>
+            </div>
+            <div class="cs-metric-box">
+              <div class="cs-metric-num">$1.39</div>
+              <div class="cs-metric-lbl">Cost Per Result (AU)</div>
+            </div>
+            <div class="cs-metric-box">
+              <div class="cs-metric-num">+150%</div>
+              <div class="cs-metric-lbl">Organic Traffic Growth</div>
+            </div>
+            <div class="cs-metric-box">
+              <div class="cs-metric-num">2.8x</div>
+              <div class="cs-metric-lbl">Social Engagement Rate</div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 10. Key Learnings -->
+        <section class="cs-block">
+          <h2 class="cs-block-title">10. Key Strategic Learnings</h2>
+          <p>
+            [Document actionable insights gathered from testing, audience reactions, and data anomalies. How did this inform future marketing iterations?]
+          </p>
+        </section>
+
+      </article>
+
+      <!-- Bottom CTA -->
+      <div class="contact-card card text-center" style="margin-top: 4rem; text-align: center;">
+        <h2 style="margin-bottom: 0.5rem;">Interested in similar growth results?</h2>
+        <p style="max-width: 600px; margin: 0 auto 1.5rem;">Let's discuss how we can scale your digital marketing and acquisition funnels.</p>
+        <a href="index.html#contact" class="btn btn-primary">Get In Touch With Aakash</a>
+      </div>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container text-center">
+      <p class="copyright">© 2026 Aakash Shah • Digital Marketing Specialist</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
